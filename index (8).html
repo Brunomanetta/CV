@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno Almeida Manetta — Operaciones, Atención al Cliente y Coordinación de Equipos</title>
+<meta name="description" content="Perfil profesional de Bruno Almeida Manetta: operaciones, atención al cliente, administración y coordinación de equipos en entornos multiculturales (Brasil, España, Malta).">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Bruno Almeida Manetta — Operaciones, Atención al Cliente y Coordinación de Equipos">
+<meta property="og:description" content="Perfil profesional: operaciones, atención al cliente, administración y coordinación de equipos en entornos multiculturales.">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #F6F5F1;
+    --panel: #FFFFFF;
+    --ink: #1B1C19;
+    --ink-soft: #55564F;
+    --ink-faint: #8B8A80;
+    --line: #DEDCD2;
+    --accent: #3F4A63;
+    --accent-soft: #EDEFF3;
+    --tag: #A9622D;
+    --tag-soft: #F3E8DD;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background:var(--accent); color:#fff; }
+  a{ color:inherit; text-decoration:none; }
+  .mono{ font-family:'IBM Plex Mono',monospace; letter-spacing:0.02em; }
+  .skip-link{ position:absolute; left:-999px; top:0; background:var(--ink); color:#fff; padding:10px 16px; z-index:200; }
+  .skip-link:focus{ left:16px; top:16px; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:1px; }
+
+  /* ---- language switcher ---- */
+  .lang-switch{
+    position:fixed; top:16px; right:16px; z-index:100;
+    display:flex; gap:2px; background:var(--panel); border:1px solid var(--line);
+    padding:3px; box-shadow:0 2px 10px rgba(27,28,25,0.06);
+  }
+  .lang-switch button{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.04em;
+    padding:7px 12px; border:none; background:transparent; color:var(--ink-faint); cursor:pointer;
+    transition: background .18s cubic-bezier(.4,0,.2,1), color .18s cubic-bezier(.4,0,.2,1);
+  }
+  .lang-switch button:hover:not(:disabled){ color:var(--ink); }
+  .lang-switch button.active{ background:var(--ink); color:#fff; }
+  .lang-switch button:disabled{ cursor:not-allowed; opacity:.45; }
+  @media (max-width:860px){ .lang-switch{ top:10px; right:10px; } .lang-switch button{ padding:6px 9px; font-size:10px; } }
+  @media print{ .lang-switch{ display:none; } }
+
+  .shell{ display:grid; grid-template-columns: 260px 1fr; max-width:1180px; margin:0 auto; min-height:100vh; }
+  @media (max-width: 860px){ .shell{ grid-template-columns: 1fr; } }
+
+  .sidebar{
+    border-right:1px solid var(--line); padding:48px 28px; position:sticky; top:0; height:100vh;
+    display:flex; flex-direction:column; justify-content:space-between;
+  }
+  @media (max-width: 860px){
+    .sidebar{ position:sticky; top:0; z-index:20; height:auto; border-right:none; border-bottom:1px solid var(--line);
+      background:var(--bg); padding:16px 20px; flex-direction:row; align-items:center; justify-content:space-between; gap:16px; }
+    .sidebar > div:first-child{ display:flex; align-items:center; gap:20px; flex:1; min-width:0; }
+    .brand-block{ display:none; }
+    .status{ margin-top:0; white-space:nowrap; }
+    .status span:last-child{ display:none; }
+  }
+  .brand{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-0.01em; }
+  .brand-sub{ margin-top:6px; font-size:12px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.08em; }
+  nav ul{ list-style:none; margin-top:56px; display:flex; flex-direction:column; gap:2px; }
+  @media (max-width: 860px){
+    nav ul{ margin-top:0; flex-direction:row; gap:4px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+    nav ul::-webkit-scrollbar{ display:none; }
+    nav a{ white-space:nowrap; border-left:none !important; border-bottom:2px solid transparent; padding:6px 10px !important; }
+    nav a.active, nav a:hover{ border-bottom-color:var(--tag); }
+  }
+  nav a{ font-size:13px; padding:9px 0; color:var(--ink-soft); border-left:2px solid transparent; padding-left:12px; display:block;
+    transition: color .18s cubic-bezier(.4,0,.2,1), border-color .18s cubic-bezier(.4,0,.2,1); }
+  nav a:hover, nav a:focus-visible{ color:var(--ink); border-left-color:var(--tag); }
+  nav a.active{ color:var(--ink); border-left-color:var(--tag); }
+  nav .idx{ color:var(--ink-faint); margin-right:8px; }
+  .status{ margin-top:40px; font-size:11px; color:var(--ink-faint); display:flex; align-items:center; gap:8px; }
+  .dot{ width:6px; height:6px; border-radius:50%; background:#4C7A54; flex:none; }
+
+  main{ padding: 64px 56px 120px; }
+  @media (max-width: 860px){ main{ padding: 40px 22px 80px; } }
+  section{ margin-bottom:92px; scroll-margin-top:32px; }
+  section:last-of-type{ margin-bottom:0; }
+
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--tag); text-transform:uppercase; letter-spacing:0.12em; margin-bottom:10px; }
+
+  /* hero */
+  .hero-card{ background:var(--panel); border:1px solid var(--line); overflow:hidden; }
+  .hero-top{ padding:36px 40px 30px; border-bottom:1px dashed var(--line); }
+  .hero-name{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(28px, 4.4vw, 46px); line-height:1.05; letter-spacing:-0.02em; }
+  .hero-role{ margin-top:12px; font-size:16px; color:var(--ink-soft); max-width:640px; }
+  @media (max-width:480px){ .hero-name{ font-size:30px; } }
+
+  .hero-fields{ display:grid; grid-template-columns: repeat(4, 1fr); }
+  @media (max-width:760px){ .hero-fields{ grid-template-columns:repeat(2,1fr); } }
+  .field{ padding:20px 28px; border-right:1px dashed var(--line); }
+  .field:last-child{ border-right:none; }
+  @media (max-width:760px){ .field:nth-child(2n){ border-right:none; } .field{ border-bottom:1px dashed var(--line); } }
+  .field-label{ font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--ink-faint); margin-bottom:6px; }
+  .field-value{ font-size:13.5px; }
+
+  .lede{ max-width:660px; margin-top:28px; font-size:16px; color:var(--ink-soft); }
+
+  .hero-actions{ display:flex; flex-wrap:wrap; gap:10px; margin-top:28px; }
+  .btn{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; padding:11px 18px; border:1px solid var(--ink); transition: background .18s cubic-bezier(.4,0,.2,1), color .18s cubic-bezier(.4,0,.2,1); }
+  .btn-primary{ background:var(--ink); color:#fff; }
+  .btn-primary:hover{ background:var(--accent); border-color:var(--accent); }
+  .btn-secondary{ background:transparent; color:var(--ink); }
+  .btn-secondary:hover{ background:var(--ink); color:#fff; }
+
+  h2{ font-family:'Space Grotesk',sans-serif; font-size:25px; font-weight:600; letter-spacing:-0.01em; margin-bottom:28px; }
+
+  /* experience */
+  .entry{ display:grid; grid-template-columns: 130px 1fr; gap:24px; padding:28px 0; border-top:1px solid var(--line); }
+  .entry:last-child{ border-bottom:1px solid var(--line); }
+  @media (max-width:640px){ .entry{ grid-template-columns:1fr; gap:8px; } }
+  .entry-idx{ font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-faint); padding-top:2px; line-height:1.5; }
+  .entry-title{ font-weight:600; font-size:16px; }
+  .entry-meta{ font-size:12px; color:var(--ink-faint); margin-top:4px; font-family:'IBM Plex Mono',monospace; }
+  .entry-context{ margin-top:10px; font-size:14px; color:var(--ink-soft); max-width:620px; }
+  .entry-block-label{ font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-faint); margin-top:14px; margin-bottom:6px; }
+  .entry ul{ padding-left:18px; font-size:14px; color:var(--ink-soft); max-width:620px; }
+  .entry ul li{ margin-bottom:6px; }
+  .sub{ margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); }
+  .sub-title{ font-size:14px; font-weight:600; }
+  .sub-meta{ font-size:11px; color:var(--ink-faint); font-family:'IBM Plex Mono',monospace; margin-top:2px; }
+
+  /* highlights */
+  .highlights-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media (max-width:760px){ .highlights-grid{ grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width:480px){ .highlights-grid{ grid-template-columns: 1fr; } }
+  .highlight-item{ background:var(--panel); padding:22px 22px 20px; transition: background .2s cubic-bezier(.4,0,.2,1); }
+  .highlight-item:hover{ background:var(--accent-soft); }
+  .highlight-idx{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--tag); margin-bottom:10px; }
+  .highlight-label{ font-weight:600; font-size:14.5px; line-height:1.3; }
+  .highlight-text{ margin-top:6px; font-size:13px; color:var(--ink-soft); line-height:1.45; }
+
+  /* projects: case-study format */
+  .project-grid{ display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+  @media (max-width:760px){ .project-grid{ grid-template-columns:1fr; } }
+  .project-card{ border:1px solid var(--line); background:var(--panel); padding:26px 28px; transition: border-color .2s cubic-bezier(.4,0,.2,1); }
+  .project-card:hover{ border-color:var(--ink-faint); }
+  .project-title{ font-weight:600; font-size:16px; margin-bottom:16px; }
+  .case-block{ margin-top:14px; }
+  .case-block:first-of-type{ margin-top:0; }
+  .case-label{ font-size:10.5px; text-transform:uppercase; letter-spacing:0.09em; color:var(--tag); margin-bottom:4px; font-family:'IBM Plex Mono',monospace; }
+  .case-text{ font-size:13.5px; color:var(--ink-soft); line-height:1.5; }
+  .project-card.empty{ border-style:dashed; display:flex; align-items:center; justify-content:center; text-align:center; color:var(--ink-faint); font-size:13px; font-family:'IBM Plex Mono',monospace; min-height:140px; transition:none; }
+  .project-card.empty:hover{ border-color:var(--line); }
+
+  /* skills */
+  .skill-groups{ display:grid; grid-template-columns: repeat(2, 1fr); gap:28px 32px; }
+  @media (max-width:640px){ .skill-groups{ grid-template-columns:1fr; } }
+  .skill-group-label{ font-size:11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-faint); margin-bottom:12px; }
+  .tags{ display:flex; flex-wrap:wrap; gap:8px; }
+  .tag{ font-family:'IBM Plex Mono',monospace; font-size:12px; padding:7px 12px; background:var(--accent-soft); color:var(--accent); }
+  .tag.alt{ background:var(--tag-soft); color:var(--tag); }
+
+  /* languages */
+  .lang-list{ display:flex; flex-direction:column; gap:14px; max-width:480px; }
+  .lang-row-item{ display:flex; justify-content:space-between; align-items:baseline; padding-bottom:14px; border-bottom:1px solid var(--line); }
+  .lang-row-item:last-child{ border-bottom:none; padding-bottom:0; }
+  .lang-name{ font-weight:600; font-size:14.5px; }
+  .lang-level{ font-size:13px; color:var(--ink-soft); font-family:'IBM Plex Mono',monospace; }
+
+  /* education */
+  .edu-grid{ display:grid; grid-template-columns:1fr 1fr; gap:20px 40px; }
+  @media (max-width:760px){ .edu-grid{ grid-template-columns:1fr; } }
+  .edu-item{ padding-bottom:16px; border-bottom:1px solid var(--line); }
+  .edu-item.priority .edu-title{ color:var(--accent); }
+  .edu-title{ font-weight:600; font-size:14px; }
+  .edu-meta{ font-size:12px; color:var(--ink-faint); margin-top:4px; font-family:'IBM Plex Mono',monospace; }
+
+  /* interests */
+  .interests-text{ font-size:14px; color:var(--ink-soft); max-width:660px; }
+  .interests-tags{ display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+  .interests-tags .tag{ background:var(--bg); border:1px solid var(--line); color:var(--ink-faint); }
+
+  /* contact */
+  .contact-card{ background:var(--ink); color:var(--bg); padding:44px 40px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px; }
+  .contact-card h2{ color:#fff; margin-bottom:10px; }
+  .contact-card p{ color:#B9B8AF; max-width:440px; font-size:14px; }
+  .contact-links{ display:flex; flex-direction:column; gap:10px; align-items:flex-end; }
+  .contact-links a{ font-family:'IBM Plex Mono',monospace; font-size:13px; border-bottom:1px solid #4A4B44; padding-bottom:2px; transition: border-color .15s ease; }
+  .contact-links a:hover{ border-color:var(--tag); }
+  .domain-slot{ margin-top:28px; border:1px dashed #4A4B44; padding:14px 18px; font-size:11.5px; color:#8F8E86; font-family:'IBM Plex Mono',monospace; }
+
+  footer{ margin-top:40px; font-size:11px; color:var(--ink-faint); text-align:center; }
+
+  section{ opacity:0; transform:translateY(10px); transition: opacity .5s cubic-bezier(.16,1,.3,1), transform .5s cubic-bezier(.16,1,.3,1); }
+  section.visible{ opacity:1; transform:translateY(0); }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; } *{ transition:none !important; } section{ opacity:1; transform:none; }
+  }
+
+  @media print{
+    .sidebar{ display:none; }
+    .shell{ grid-template-columns:1fr; max-width:100%; }
+    main{ padding:0 8px; }
+    section{ opacity:1 !important; transform:none !important; margin-bottom:32px; page-break-inside:avoid; }
+    body{ background:#fff; }
+    .contact-card{ background:#fff; color:var(--ink); border:1px solid var(--line); }
+    .contact-card h2, .contact-card p{ color:var(--ink); }
+    .contact-links a{ color:var(--ink); border-bottom-color:var(--line); }
+    .domain-slot{ display:none; }
+  }
+</style>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<div class="lang-switch" role="group" aria-label="Selector de idioma">
+  <button data-lang="es" class="active" aria-current="true">ES</button>
+  <button data-lang="en">EN</button>
+  <button data-lang="pt">PT</button>
+</div>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div>
+      <div class="brand-block">
+        <div class="brand">Bruno Almeida Manetta</div>
+        <div class="brand-sub" id="brand-sub"></div>
+      </div>
+      <nav aria-label="Secciones de la página">
+        <ul id="nav-list"></ul>
+      </nav>
+    </div>
+    <div class="status">
+      <span class="dot"></span>
+      <span class="mono" id="status-text"></span>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- PERFIL -->
+    <section id="perfil">
+      <div class="hero-card">
+        <div class="hero-top">
+          <h1 class="hero-name">Bruno Almeida Manetta</h1>
+          <p class="hero-role" id="hero-role"></p>
+        </div>
+        <div class="hero-fields" id="hero-fields"></div>
+      </div>
+      <p class="lede" id="hero-lede"></p>
+      <div class="hero-actions" id="hero-actions"></div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" aria-labelledby="highlights-h">
+      <div class="eyebrow" id="highlights-eyebrow"></div>
+      <h2 id="highlights-h"></h2>
+      <div class="highlights-grid" id="highlights-grid"></div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia">
+      <div class="eyebrow" id="exp-eyebrow"></div>
+      <h2 id="exp-title"></h2>
+      <div id="exp-entries"></div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+      <div class="eyebrow" id="proj-eyebrow"></div>
+      <h2 id="proj-title"></h2>
+      <div class="project-grid" id="proj-grid"></div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <div class="eyebrow" id="skills-eyebrow"></div>
+      <h2 id="skills-title"></h2>
+      <div class="skill-groups" id="skills-groups"></div>
+    </section>
+
+    <!-- IDIOMAS -->
+    <section id="idiomas" aria-labelledby="idiomas-h">
+      <div class="eyebrow" id="langs-eyebrow"></div>
+      <h2 id="idiomas-h"></h2>
+      <div class="lang-list" id="langs-list"></div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion">
+      <div class="eyebrow" id="edu-eyebrow"></div>
+      <h2 id="edu-title"></h2>
+      <div class="edu-grid" id="edu-grid"></div>
+    </section>
+
+    <!-- INTERESES -->
+    <section id="intereses">
+      <div class="eyebrow" id="int-eyebrow"></div>
+      <h2 id="int-title"></h2>
+      <p class="interests-text" id="int-text"></p>
+      <div class="interests-tags" id="int-tags"></div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" style="margin-bottom:0;">
+      <div class="contact-card">
+        <div>
+          <h2 id="contact-title"></h2>
+          <p id="contact-text"></p>
+          <div class="domain-slot" id="contact-domain"></div>
+        </div>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </section>
+
+    <footer id="site-footer"></footer>
+  </main>
+</div>
+
+<script>
+/* =========================================================
+   TRANSLATIONS — single source of truth for all 3 languages
+   ========================================================= */
+const T = {
+
+es: {
+  meta: {
+    htmlLang: "es",
+    title: "Bruno Almeida Manetta — Operaciones, Atención al Cliente y Coordinación de Equipos",
+    description: "Perfil profesional de Bruno Almeida Manetta: operaciones, atención al cliente, administración y coordinación de equipos en entornos multiculturales (Brasil, España, Malta).",
+    ogLocale: "es_ES"
+  },
+  skipLink: "Saltar al contenido",
+  brandSub: "Ficha profesional",
+  status: "ABIERTO A NUEVAS OPORTUNIDADES",
+  nav: [
+    {id:"perfil", label:"Perfil"},
+    {id:"highlights", label:"Destacados"},
+    {id:"experiencia", label:"Experiencia"},
+    {id:"proyectos", label:"Proyectos"},
+    {id:"habilidades", label:"Habilidades"},
+    {id:"idiomas", label:"Idiomas"},
+    {id:"formacion", label:"Formación"},
+    {id:"contacto", label:"Contacto"}
+  ],
+  hero: {
+    role: "Profesional de Operaciones, Atención al Cliente y Coordinación de Equipos",
+    fields: [
+      {label:"Ubicación", value:"Barcelona, España"},
+      {label:"Nacionalidad", value:"Brasileña e Italiana"},
+      {label:"Idiomas", value:"Portugués · Español · Inglés"},
+      {label:"Disponibilidad", value:"Abierto a nuevas oportunidades"}
+    ],
+    lede: "Superviso operaciones diarias y coordino equipos en entornos de alta exigencia, con foco en organización, resolución de incidencias y mejora continua de procesos. Mi paso por Brasil, España y Malta me dio una capacidad real de adaptación a nuevos equipos y culturas, que aplico hoy en la gestión de turnos, proveedores e inventario. Busco un siguiente paso en operaciones, atención al cliente o coordinación de equipos, en una empresa internacional.",
+    actions: {contact:"Contactar", linkedin:"Ver LinkedIn", cv:"Descargar CV"}
+  },
+  highlights: {
+    eyebrow: "En resumen",
+    title: "Lo que aporto",
+    items: [
+      {label:"Promoción en dos meses", text:"De ayudante de cocina a encargado de local en Hype Smash Burger."},
+      {label:"Experiencia internacional", text:"Trayectoria profesional en Brasil, España y Malta."},
+      {label:"Herramienta propia", text:"Sistema en Google Sheets para gestionar stock y proveedores."},
+      {label:"Gestión bajo presión", text:"Coordinación de equipos en entornos de alta demanda."},
+      {label:"Perfil multilingüe", text:"Portugués nativo, español profesional e inglés en desarrollo."}
+    ]
+  },
+  experience: {
+    eyebrow: "Registro cronológico",
+    title: "Experiencia profesional",
+    entries: [
+      {
+        idx: ["Dic 2025", "Actual"],
+        title: "Hype Smash Burger",
+        meta: "BARCELONA, ESPAÑA",
+        context: "Restaurante de comida rápida premium. Empecé como ayudante de cocina y, tras dos meses, fui promovido a encargado de local.",
+        subs: [
+          {
+            title: "Encargado de local / Restaurant Supervisor",
+            meta: "Ene 2026 — Actual",
+            blocks: [
+              {label:"Funciones principales", items:[
+                "Responsable de coordinar al equipo durante los turnos, garantizando continuidad operativa y calidad de servicio",
+                "A cargo de la operativa diaria del local, incluyendo apertura y cierre",
+                "Responsable de la gestión de pedidos y la relación con proveedores",
+                "Control de inventario y stock para evitar roturas y excedentes",
+                "Cuadre y control de caja al cierre de cada turno",
+                "Resolución de incidencias con clientes y plataformas de delivery, priorizando una respuesta ágil",
+                "Seguimiento de errores en pedidos para reducir su recurrencia",
+                "Supervisión de limpieza, calidad y cumplimiento de los procedimientos internos",
+                "Diseño y desarrollo de una herramienta propia en Google Sheets para centralizar proveedores, stock, pedidos y consumo",
+                "Comunicación directa y periódica con los responsables de la empresa",
+                "Apoyo en la formación del equipo, especialmente durante la incorporación de nuevos miembros"
+              ]},
+              {label:"Habilidades desarrolladas", items:[
+                "Liderazgo operativo y toma de decisiones bajo presión",
+                "Organización y priorización eficaz de tareas",
+                "Comunicación efectiva con clientes, equipo y responsables",
+                "Mejora continua de procesos internos"
+              ]}
+            ]
+          },
+          {
+            title: "Ayudante de cocina",
+            meta: "Dic 2025 — Ene 2026",
+            blocks: [
+              {label:"Funciones principales", items:[
+                "Preparación de ingredientes conforme a los estándares del local",
+                "Apoyo activo durante el servicio y montaje de pedidos",
+                "Mantenimiento de la limpieza y organización de la cocina",
+                "Cumplimiento estricto de las normas de higiene alimentaria",
+                "Trabajo en equipo eficaz en un entorno de alta presión"
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        idx: ["2017", "2024"],
+        title: "MMFitness Academia",
+        meta: "SÃO PAULO, BRASIL",
+        context: "Siete años en la misma academia, con responsabilidad creciente: de aprendiz a instructor, recepcionista y auxiliar administrativo. Atención al cliente, gestión de agendas, planillas y pagos, y acompañamiento de alumnos."
+      },
+      {
+        idx: ["2016", "2017"],
+        title: "Prácticas en Educación Física",
+        meta: "COLÉGIO SANTA AMÁLIA Y OLIMPIA ESCOLA DE FUTEBOL · SÃO PAULO, BRASIL",
+        context: "Apoyo en clases y actividades deportivas escolares durante la formación universitaria."
+      },
+      {
+        idx: ["Fechas", "variables"],
+        title: "Freelance — Eventos y hostelería",
+        meta: "BRASIL / MALTA / ESPAÑA",
+        items: [
+          {label:"Eventos deportivos", text:"soporte a profesores y atletas, preparación de equipamiento"},
+          {label:"Bufé infantil", text:"monitor de niños en fiestas y organización de actividades"},
+          {label:"Bartender en eventos (Uno Malta)", text:"preparación y servicio de bebidas"},
+          {label:"Camarero en eventos (Buffet Castello di Baroni)", text:"atención al público y servicio en banquetes"},
+          {label:"Friegaplatos (Zia Carolina Pizzeria, Barcelona)", text:"apoyo en cocina en un entorno de alta rotación, manteniendo el ritmo de servicio y el orden del área de trabajo"}
+        ]
+      }
+    ]
+  },
+  projects: {
+    eyebrow: "Iniciativa propia",
+    title: "Proyectos y mejoras",
+    cards: [
+      {
+        title: "Sistema interno de control de proveedores y stock",
+        caseLabels: {context:"Contexto", action:"Acción", result:"Resultado"},
+        context: "En Hype Smash Burger, el seguimiento de proveedores, stock y pedidos se hacía de forma manual y dispersa, dificultando la visibilidad sobre lo que había disponible y lo que había que pedir.",
+        action: "Diseñé y construí una herramienta en Google Sheets que organiza los productos por proveedor, registra el stock disponible, define mínimos y calcula pedidos sugeridos según el consumo.",
+        result: "El equipo ganó una visión centralizada y actualizada del inventario, lo que redujo el tiempo dedicado a organizar pedidos y mejoró la comunicación con los proveedores."
+      }
+    ],
+    emptySlot: "Espacio reservado para futuros proyectos profesionales"
+  },
+  skills: {
+    eyebrow: "Catálogo",
+    title: "Habilidades",
+    groups: [
+      {label:"Operaciones y gestión", alt:false, tags:["Coordinación de equipos","Gestión de inventario","Control de stock","Proveedores","Organización de turnos","Apertura y cierre","Control de caja","Resolución de incidencias","Mejora de procesos"]},
+      {label:"Atención al cliente", alt:false, tags:["Comunicación interpersonal","Atención presencial","Gestión de reclamaciones","Servicio en alta demanda","Adaptación multicultural"]},
+      {label:"Administración y herramientas", alt:true, tags:["Microsoft Excel","Google Sheets","Canva","Organización documental","Seguimiento de pagos","Elaboración de registros","Herramientas digitales de gestión"]},
+      {label:"Hostelería y eventos", alt:true, tags:["Servicio de barra","Coctelería","Apoyo en cocina","Organización de eventos","Servicio en banquetes","Montaje de espacios"]}
+    ]
+  },
+  languages: {
+    eyebrow: "Comunicación",
+    title: "Idiomas",
+    items: [
+      {name:"Portugués", level:"Nativo"},
+      {name:"Español", level:"B2 · uso profesional"},
+      {name:"Inglés", level:"Nivel intermedio en desarrollo"}
+    ]
+  },
+  education: {
+    eyebrow: "Certificaciones",
+    title: "Formación académica y cursos",
+    items: [
+      {title:"Español — niveles B1 y B2", meta:"Oxford House, Barcelona · Nov 2023–Jun 2024", priority:true},
+      {title:"Inglés — nivel B1.1 (en curso)", meta:"Oxford House, Barcelona · Desde Nov 2025", priority:true},
+      {title:"Inglés — nivel A2", meta:"AClass Academy of English, Pembroke, Malta · Sep–Oct 2025", priority:true},
+      {title:"Licenciatura y Bachillerato en Educación Física", meta:"FMU — Faculdades Metropolitanas Unidas, São Paulo · 2015–2018", priority:true},
+      {title:"Bartender y Mixología Profesional", meta:"Edutin Academy · 2025", priority:false},
+      {title:"Jornada DJ: Básico al Avanzado", meta:"Playad Ensino de Música, São Paulo · 2024", priority:false},
+      {title:"Trading Deportivo en Exchanges", meta:"Fulltrader Sports, Brasil · 2024", priority:false}
+    ]
+  },
+  interests: {
+    eyebrow: "Fuera del trabajo",
+    title: "Intereses y proyectos personales",
+    text: "Fuera del ámbito profesional, dedico tiempo a la música y a proyectos analíticos personales, que también alimentan mi organización y disciplina en el día a día.",
+    tags: ["DJ y producción musical","Análisis y trading deportivo","Viajes y culturas nuevas"]
+  },
+  contact: {
+    title: "Contacto",
+    text: "Estoy abierto a nuevas oportunidades en operaciones, atención al cliente, coordinación y entornos internacionales.",
+    domain: "Dominio propio — próximamente",
+    linkedinLabel: "linkedin.com/in/bruno-almeida-manetta",
+    cvLabel: "Descargar CV (PDF) ↓"
+  },
+  footer: "Última actualización · Julio 2026"
+},
+
+en: {
+  meta: {
+    htmlLang: "en",
+    title: "Bruno Almeida Manetta — Operations, Customer Service & Team Coordination",
+    description: "Professional profile of Bruno Almeida Manetta: operations, customer service, administration and team coordination across multicultural environments (Brazil, Spain, Malta).",
+    ogLocale: "en_GB"
+  },
+  skipLink: "Skip to content",
+  brandSub: "Professional Profile",
+  status: "OPEN TO NEW OPPORTUNITIES",
+  nav: [
+    {id:"perfil", label:"Profile"},
+    {id:"highlights", label:"Highlights"},
+    {id:"experiencia", label:"Experience"},
+    {id:"proyectos", label:"Projects"},
+    {id:"habilidades", label:"Skills"},
+    {id:"idiomas", label:"Languages"},
+    {id:"formacion", label:"Education"},
+    {id:"contacto", label:"Contact"}
+  ],
+  hero: {
+    role: "Operations, Customer Service & Team Coordination Professional",
+    fields: [
+      {label:"Location", value:"Barcelona, Spain"},
+      {label:"Nationality", value:"Brazilian and Italian"},
+      {label:"Languages", value:"Portuguese · Spanish · English"},
+      {label:"Availability", value:"Open to new opportunities"}
+    ],
+    lede: "I supervise daily operations and coordinate teams in high-demand environments, with a focus on organisation, issue resolution and continuous process improvement. Having worked across Brazil, Spain and Malta, I bring genuine adaptability to new teams and cultures — which I apply directly to shift management, supplier coordination and inventory control. I'm looking for my next step in operations, customer service or team coordination within an international company.",
+    actions: {contact:"Contact", linkedin:"View LinkedIn", cv:"Download CV"}
+  },
+  highlights: {
+    eyebrow: "At a glance",
+    title: "What I Bring",
+    items: [
+      {label:"Promoted within two months", text:"From Kitchen Assistant to Restaurant Supervisor at Hype Smash Burger."},
+      {label:"International experience", text:"Professional background across Brazil, Spain and Malta."},
+      {label:"Built an in-house tool", text:"Google Sheets system for stock and supplier management."},
+      {label:"Thrives under pressure", text:"Team coordination in high-demand environments."},
+      {label:"Multilingual profile", text:"Native Portuguese, professional Spanish, English in progress."}
+    ]
+  },
+  experience: {
+    eyebrow: "Career timeline",
+    title: "Professional Experience",
+    entries: [
+      {
+        idx: ["Dec 2025", "Present"],
+        title: "Hype Smash Burger",
+        meta: "BARCELONA, SPAIN",
+        context: "Premium fast-casual restaurant. I started as a Kitchen Assistant and was promoted to Restaurant Supervisor after two months.",
+        subs: [
+          {
+            title: "Restaurant Supervisor",
+            meta: "Jan 2026 — Present",
+            blocks: [
+              {label:"Key Responsibilities", items:[
+                "Responsible for coordinating the team across shifts to ensure operational continuity and service quality",
+                "Managed day-to-day store operations, including opening and closing procedures",
+                "Owned supplier relationships and order management",
+                "Controlled inventory and stock levels to prevent shortages and waste",
+                "Reconciled and managed cash handling at the close of each shift",
+                "Resolved customer and delivery-platform incidents with a focus on fast turnaround",
+                "Tracked recurring order errors to reduce their frequency",
+                "Oversaw cleanliness, quality standards and compliance with internal procedures",
+                "Designed and built a custom Google Sheets tool to centralise suppliers, stock, orders and consumption",
+                "Maintained direct, ongoing communication with company management",
+                "Supported team training, particularly during the onboarding of new staff"
+              ]},
+              {label:"Skills Developed", items:[
+                "Operational leadership and decision-making under pressure",
+                "Effective task organisation and prioritisation",
+                "Clear communication with customers, team members and management",
+                "Continuous improvement of internal processes"
+              ]}
+            ]
+          },
+          {
+            title: "Kitchen Assistant",
+            meta: "Dec 2025 — Jan 2026",
+            blocks: [
+              {label:"Key Responsibilities", items:[
+                "Prepared ingredients to the store's standards",
+                "Provided active support during service and order assembly",
+                "Maintained kitchen cleanliness and organisation",
+                "Ensured strict compliance with food hygiene standards",
+                "Worked effectively as part of a team under pressure"
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        idx: ["2017", "2024"],
+        title: "MMFitness Academia",
+        meta: "SÃO PAULO, BRAZIL",
+        context: "Seven years at the same fitness academy, with growing responsibility — from trainee to instructor, receptionist and administrative assistant. Customer service, schedule management, records and payments, and member support."
+      },
+      {
+        idx: ["2016", "2017"],
+        title: "Physical Education Placements",
+        meta: "COLÉGIO SANTA AMÁLIA AND OLIMPIA ESCOLA DE FUTEBOL · SÃO PAULO, BRAZIL",
+        context: "Supported classes and school sports activities during university studies."
+      },
+      {
+        idx: ["Various", "dates"],
+        title: "Freelance — Events & Hospitality",
+        meta: "BRAZIL / MALTA / SPAIN",
+        items: [
+          {label:"Sports Events", text:"supported coaches and athletes, prepared equipment"},
+          {label:"Kids' Buffet", text:"supervised children at parties and organised activities"},
+          {label:"Event Bartender (Uno Malta)", text:"prepared and served drinks"},
+          {label:"Event Waiter (Buffet Castello di Baroni)", text:"guest service and banquet support"},
+          {label:"Dishwasher (Zia Carolina Pizzeria, Barcelona)", text:"kitchen support in a high-turnover environment, maintaining service pace and workspace organisation"}
+        ]
+      }
+    ]
+  },
+  projects: {
+    eyebrow: "Personal Initiative",
+    title: "Projects & Improvements",
+    cards: [
+      {
+        title: "Internal Supplier & Stock Control System",
+        caseLabels: {context:"Context", action:"Action", result:"Result"},
+        context: "At Hype Smash Burger, supplier, stock and order tracking was handled manually and across scattered sources, making it hard to see what was available and what needed reordering.",
+        action: "I designed and built a Google Sheets tool that organises products by supplier, tracks available stock, sets minimum thresholds and calculates suggested orders based on consumption.",
+        result: "The team gained a centralised, up-to-date view of inventory, cutting down time spent organising orders and improving communication with suppliers."
+      }
+    ],
+    emptySlot: "Reserved for future professional projects"
+  },
+  skills: {
+    eyebrow: "Overview",
+    title: "Skills",
+    groups: [
+      {label:"Operations & Management", alt:false, tags:["Team Coordination","Inventory Management","Stock Control","Supplier Relations","Shift Scheduling","Opening & Closing Procedures","Cash Handling","Issue Resolution","Process Improvement"]},
+      {label:"Customer Service", alt:false, tags:["Interpersonal Communication","Face-to-Face Customer Service","Complaint Resolution","High-Volume Service Environments","Cross-Cultural Adaptability"]},
+      {label:"Administration & Tools", alt:true, tags:["Microsoft Excel","Google Sheets","Canva","Document Management","Payment Tracking","Recordkeeping","Digital Management Tools"]},
+      {label:"Hospitality & Events", alt:true, tags:["Bar Service","Mixology","Kitchen Support","Event Coordination","Banquet Service","Venue Setup"]}
+    ]
+  },
+  languages: {
+    eyebrow: "Communication",
+    title: "Languages",
+    items: [
+      {name:"Portuguese", level:"Native"},
+      {name:"Spanish", level:"B2 · Professional working proficiency"},
+      {name:"English", level:"Intermediate, currently improving"}
+    ]
+  },
+  education: {
+    eyebrow: "Certifications",
+    title: "Education & Courses",
+    items: [
+      {title:"Spanish — B1 & B2 Levels", meta:"Oxford House, Barcelona · Nov 2023–Jun 2024", priority:true},
+      {title:"English — B1.1 Level (in progress)", meta:"Oxford House, Barcelona · Since Nov 2025", priority:true},
+      {title:"English — A2 Level", meta:"AClass Academy of English, Pembroke, Malta · Sep–Oct 2025", priority:true},
+      {title:"Bachelor's Degree in Physical Education", meta:"FMU — Faculdades Metropolitanas Unidas, São Paulo · 2015–2018", priority:true},
+      {title:"Professional Bartending & Mixology", meta:"Edutin Academy · 2025", priority:false},
+      {title:"DJ Course: Beginner to Advanced", meta:"Playad Ensino de Música, São Paulo · 2024", priority:false},
+      {title:"Sports Trading on Exchanges", meta:"Fulltrader Sports, Brazil · 2024", priority:false}
+    ]
+  },
+  interests: {
+    eyebrow: "Outside of Work",
+    title: "Interests & Personal Projects",
+    text: "Outside of work, I dedicate time to music and personal analytical projects, which also reinforce the organisation and discipline I bring to my day-to-day work.",
+    tags: ["DJ & Music Production","Sports Trading & Analysis","Travel & New Cultures"]
+  },
+  contact: {
+    title: "Contact",
+    text: "I'm open to new opportunities in operations, customer service, team coordination and international environments.",
+    domain: "Custom domain — coming soon",
+    linkedinLabel: "linkedin.com/in/bruno-almeida-manetta",
+    cvLabel: "Download CV (PDF) ↓"
+  },
+  footer: "Last updated · July 2026"
+},
+
+pt: {
+  meta: {
+    htmlLang: "pt-BR",
+    title: "Bruno Almeida Manetta — Operações, Atendimento ao Cliente e Coordenação de Equipes",
+    description: "Perfil profissional de Bruno Almeida Manetta: operações, atendimento ao cliente, administração e coordenação de equipes em ambientes multiculturais (Brasil, Espanha, Malta).",
+    ogLocale: "pt_BR"
+  },
+  skipLink: "Pular para o conteúdo",
+  brandSub: "Perfil Profissional",
+  status: "DISPONÍVEL PARA NOVAS OPORTUNIDADES",
+  nav: [
+    {id:"perfil", label:"Perfil"},
+    {id:"highlights", label:"Destaques"},
+    {id:"experiencia", label:"Experiência"},
+    {id:"proyectos", label:"Projetos"},
+    {id:"habilidades", label:"Habilidades"},
+    {id:"idiomas", label:"Idiomas"},
+    {id:"formacion", label:"Formação"},
+    {id:"contacto", label:"Contato"}
+  ],
+  hero: {
+    role: "Profissional de Operações, Atendimento ao Cliente e Coordenação de Equipes",
+    fields: [
+      {label:"Localização", value:"Barcelona, Espanha"},
+      {label:"Nacionalidade", value:"Brasileira e Italiana"},
+      {label:"Idiomas", value:"Português · Espanhol · Inglês"},
+      {label:"Disponibilidade", value:"Aberto a novas oportunidades"}
+    ],
+    lede: "Superviso operações diárias e coordeno equipes em ambientes de alta exigência, com foco em organização, resolução de incidências e melhoria contínua de processos. Minha trajetória no Brasil, na Espanha e em Malta me deu uma capacidade real de adaptação a novas equipes e culturas, que aplico hoje na gestão de turnos, fornecedores e estoque. Busco meu próximo passo em operações, atendimento ao cliente ou coordenação de equipes, em uma empresa internacional.",
+    actions: {contact:"Contato", linkedin:"Ver LinkedIn", cv:"Baixar CV"}
+  },
+  highlights: {
+    eyebrow: "Resumo",
+    title: "O Que Eu Trago",
+    items: [
+      {label:"Promovido em dois meses", text:"De Auxiliar de Cozinha a Supervisor de Loja na Hype Smash Burger."},
+      {label:"Experiência internacional", text:"Trajetória profissional no Brasil, na Espanha e em Malta."},
+      {label:"Ferramenta própria", text:"Sistema em Google Sheets para gestão de estoque e fornecedores."},
+      {label:"Gestão sob pressão", text:"Coordenação de equipes em ambientes de alta demanda."},
+      {label:"Perfil multilíngue", text:"Português nativo, espanhol profissional e inglês em desenvolvimento."}
+    ]
+  },
+  experience: {
+    eyebrow: "Linha do tempo",
+    title: "Experiência Profissional",
+    entries: [
+      {
+        idx: ["Dez 2025", "Atual"],
+        title: "Hype Smash Burger",
+        meta: "BARCELONA, ESPANHA",
+        context: "Restaurante de fast-casual premium. Comecei como Auxiliar de Cozinha e, após dois meses, fui promovido a Supervisor de Loja.",
+        subs: [
+          {
+            title: "Supervisor de Loja / Restaurant Supervisor",
+            meta: "Jan 2026 — Atual",
+            blocks: [
+              {label:"Principais Responsabilidades", items:[
+                "Responsável por coordenar a equipe durante os turnos, garantindo continuidade operacional e qualidade no atendimento",
+                "Gestão da operação diária da loja, incluindo abertura e fechamento",
+                "Responsável pela gestão de pedidos e pelo relacionamento com fornecedores",
+                "Controle de inventário e estoque para evitar rupturas e excedentes",
+                "Conferência e controle de caixa ao final de cada turno",
+                "Resolução de incidências com clientes e plataformas de delivery, com foco em resposta ágil",
+                "Acompanhamento de erros recorrentes em pedidos, visando reduzi-los",
+                "Supervisão de limpeza, qualidade e cumprimento dos procedimentos internos",
+                "Concepção e desenvolvimento de uma ferramenta própria em Google Sheets para centralizar fornecedores, estoque, pedidos e consumo",
+                "Comunicação direta e constante com os responsáveis da empresa",
+                "Apoio na formação da equipe, especialmente durante a integração de novos membros"
+              ]},
+              {label:"Habilidades Desenvolvidas", items:[
+                "Liderança operacional e tomada de decisão sob pressão",
+                "Organização e priorização eficaz de tarefas",
+                "Comunicação eficaz com clientes, equipe e gestores",
+                "Melhoria contínua de processos internos"
+              ]}
+            ]
+          },
+          {
+            title: "Auxiliar de Cozinha",
+            meta: "Dez 2025 — Jan 2026",
+            blocks: [
+              {label:"Principais Responsabilidades", items:[
+                "Preparo de ingredientes conforme os padrões da loja",
+                "Apoio ativo durante o serviço e montagem de pedidos",
+                "Manutenção da limpeza e organização da cozinha",
+                "Cumprimento rigoroso das normas de higiene alimentar",
+                "Trabalho em equipe eficaz em ambiente de alta pressão"
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        idx: ["2017", "2024"],
+        title: "MMFitness Academia",
+        meta: "SÃO PAULO, BRASIL",
+        context: "Sete anos na mesma academia, com responsabilidade crescente: de aprendiz a instrutor, recepcionista e auxiliar administrativo. Atendimento ao cliente, gestão de agendas, planilhas e pagamentos, e acompanhamento de alunos."
+      },
+      {
+        idx: ["2016", "2017"],
+        title: "Estágios em Educação Física",
+        meta: "COLÉGIO SANTA AMÁLIA E OLIMPIA ESCOLA DE FUTEBOL · SÃO PAULO, BRASIL",
+        context: "Apoio em aulas e atividades esportivas escolares durante a graduação."
+      },
+      {
+        idx: ["Datas", "variáveis"],
+        title: "Freelance — Eventos e Hotelaria",
+        meta: "BRASIL / MALTA / ESPANHA",
+        items: [
+          {label:"Eventos Esportivos", text:"apoio a professores e atletas, preparação de equipamentos"},
+          {label:"Buffet Infantil", text:"monitor de crianças em festas e organização de atividades"},
+          {label:"Bartender em Eventos (Uno Malta)", text:"preparo e serviço de bebidas"},
+          {label:"Garçom em Eventos (Buffet Castello di Baroni)", text:"atendimento ao público e serviço em banquetes"},
+          {label:"Lavador de Louça (Zia Carolina Pizzeria, Barcelona)", text:"apoio em cozinha em ambiente de alta rotatividade, mantendo o ritmo do serviço e a organização do espaço de trabalho"}
+        ]
+      }
+    ]
+  },
+  projects: {
+    eyebrow: "Iniciativa Própria",
+    title: "Projetos e Melhorias",
+    cards: [
+      {
+        title: "Sistema Interno de Controle de Fornecedores e Estoque",
+        caseLabels: {context:"Contexto", action:"Ação", result:"Resultado"},
+        context: "Na Hype Smash Burger, o acompanhamento de fornecedores, estoque e pedidos era feito manualmente e de forma dispersa, dificultando a visibilidade sobre o que havia disponível e o que precisava ser pedido.",
+        action: "Projetei e desenvolvi uma ferramenta em Google Sheets que organiza os produtos por fornecedor, registra o estoque disponível, define mínimos e calcula pedidos sugeridos com base no consumo.",
+        result: "A equipe passou a ter uma visão centralizada e atualizada do estoque, reduzindo o tempo dedicado à organização de pedidos e melhorando a comunicação com os fornecedores."
+      }
+    ],
+    emptySlot: "Espaço reservado para futuros projetos profissionais"
+  },
+  skills: {
+    eyebrow: "Catálogo",
+    title: "Habilidades",
+    groups: [
+      {label:"Operações e Gestão", alt:false, tags:["Coordenação de Equipes","Gestão de Inventário","Controle de Estoque","Relacionamento com Fornecedores","Organização de Turnos","Abertura e Fechamento","Controle de Caixa","Resolução de Incidências","Melhoria de Processos"]},
+      {label:"Atendimento ao Cliente", alt:false, tags:["Comunicação Interpessoal","Atendimento Presencial","Gestão de Reclamações","Atendimento em Alta Demanda","Adaptabilidade Multicultural"]},
+      {label:"Administração e Ferramentas", alt:true, tags:["Microsoft Excel","Google Sheets","Canva","Organização Documental","Controle de Pagamentos","Elaboração de Registros","Ferramentas Digitais de Gestão"]},
+      {label:"Hotelaria e Eventos", alt:true, tags:["Serviço de Bar","Coquetelaria","Apoio em Cozinha","Organização de Eventos","Serviço em Banquetes","Montagem de Espaços"]}
+    ]
+  },
+  languages: {
+    eyebrow: "Comunicação",
+    title: "Idiomas",
+    items: [
+      {name:"Português", level:"Nativo"},
+      {name:"Espanhol", level:"B2 · uso profissional"},
+      {name:"Inglês", level:"Nível intermediário em desenvolvimento"}
+    ]
+  },
+  education: {
+    eyebrow: "Certificações",
+    title: "Formação Acadêmica e Cursos",
+    items: [
+      {title:"Espanhol — níveis B1 e B2", meta:"Oxford House, Barcelona · Nov 2023–Jun 2024", priority:true},
+      {title:"Inglês — nível B1.1 (em andamento)", meta:"Oxford House, Barcelona · Desde Nov 2025", priority:true},
+      {title:"Inglês — nível A2", meta:"AClass Academy of English, Pembroke, Malta · Set–Out 2025", priority:true},
+      {title:"Licenciatura e Bacharelado em Educação Física", meta:"FMU — Faculdades Metropolitanas Unidas, São Paulo · 2015–2018", priority:true},
+      {title:"Bartender e Mixologia Profissional", meta:"Edutin Academy · 2025", priority:false},
+      {title:"Curso de DJ: Básico ao Avançado", meta:"Playad Ensino de Música, São Paulo · 2024", priority:false},
+      {title:"Trading Esportivo em Exchanges", meta:"Fulltrader Sports, Brasil · 2024", priority:false}
+    ]
+  },
+  interests: {
+    eyebrow: "Fora do Trabalho",
+    title: "Interesses e Projetos Pessoais",
+    text: "Fora do âmbito profissional, dedico tempo à música e a projetos analíticos pessoais, que também reforçam minha organização e disciplina no dia a dia.",
+    tags: ["DJ e Produção Musical","Trading e Análise Esportiva","Viagens e Novas Culturas"]
+  },
+  contact: {
+    title: "Contato",
+    text: "Estou aberto a novas oportunidades em operações, atendimento ao cliente, coordenação de equipes e ambientes internacionais.",
+    domain: "Domínio próprio — em breve",
+    linkedinLabel: "linkedin.com/in/bruno-almeida-manetta",
+    cvLabel: "Baixar CV (PDF) ↓"
+  },
+  footer: "Última atualização · Julho de 2026"
+}
+
+};
+
+/* =========================================================
+   CONSTANTS (do not change with language)
+   ========================================================= */
+const EMAIL = "brunomanetta7@gmail.com";
+const PHONE_DISPLAY = "+34 628 553 039";
+const PHONE_HREF = "tel:+34628553039";
+const LINKEDIN_URL = "https://www.linkedin.com/in/bruno-almeida-manetta-374550b4/";
+const CV_HREF = "cv-bruno-manetta.pdf";
+
+/* =========================================================
+   RENDER ENGINE
+   ========================================================= */
+function esc(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function setMeta(name, content, isProperty){
+  var sel = isProperty ? 'meta[property="'+name+'"]' : 'meta[name="'+name+'"]';
+  var el = document.querySelector(sel);
+  if(el) el.setAttribute('content', content);
+}
+
+function setText(id, value){
+  document.getElementById(id).textContent = value;
+}
+
+function setHTML(id, value){
+  document.getElementById(id).innerHTML = value;
+}
+
+function renderTags(tags, alt){
+  return tags.map(function(tag){
+    return '<span class="tag'+(alt?' alt':'')+'">'+esc(tag)+'</span>';
+  }).join('');
+}
+
+let spyObserver = null;
+let revealObserver = null;
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function renderEntry(entry){
+  var html = '<div class="entry">';
+  html += '<div class="entry-idx">'+esc(entry.idx[0])+' —<br>'+esc(entry.idx[1])+'</div>';
+  html += '<div>';
+  html += '<h3 class="entry-title">'+esc(entry.title)+'</h3>';
+  html += '<div class="entry-meta">'+esc(entry.meta)+'</div>';
+  if(entry.context){
+    html += '<p class="entry-context">'+esc(entry.context)+'</p>';
+  }
+  if(entry.subs){
+    entry.subs.forEach(function(sub){
+      html += '<div class="sub">';
+      html += '<div class="sub-title">'+esc(sub.title)+'</div>';
+      html += '<div class="sub-meta">'+esc(sub.meta)+'</div>';
+      sub.blocks.forEach(function(block){
+        html += '<div class="entry-block-label">'+esc(block.label)+'</div><ul>';
+        block.items.forEach(function(item){ html += '<li>'+esc(item)+'</li>'; });
+        html += '</ul>';
+      });
+      html += '</div>';
+    });
+  }
+  if(entry.items){
+    html += '<ul>';
+    entry.items.forEach(function(it){
+      html += '<li><strong>'+esc(it.label)+':</strong> '+esc(it.text)+'</li>';
+    });
+    html += '</ul>';
+  }
+  html += '</div></div>';
+  return html;
+}
+
+function renderHighlight(item, i){
+  return '<div class="highlight-item">'+
+    '<div class="highlight-idx mono">'+String(i+1).padStart(2,'0')+'</div>'+
+    '<div class="highlight-label">'+esc(item.label)+'</div>'+
+    '<div class="highlight-text">'+esc(item.text)+'</div>'+
+  '</div>';
+}
+
+function renderProjectCard(c){
+  return '<div class="project-card">'+
+    '<div class="project-title">'+esc(c.title)+'</div>'+
+    '<div class="case-block"><div class="case-label">'+esc(c.caseLabels.context)+'</div><div class="case-text">'+esc(c.context)+'</div></div>'+
+    '<div class="case-block"><div class="case-label">'+esc(c.caseLabels.action)+'</div><div class="case-text">'+esc(c.action)+'</div></div>'+
+    '<div class="case-block"><div class="case-label">'+esc(c.caseLabels.result)+'</div><div class="case-text">'+esc(c.result)+'</div></div>'+
+  '</div>';
+}
+
+function render(lang){
+  const t = T[lang];
+
+  document.documentElement.lang = t.meta.htmlLang;
+  document.title = t.meta.title;
+  setMeta('description', t.meta.description);
+  setMeta('og:title', t.meta.title, true);
+  setMeta('og:description', t.meta.description, true);
+  setMeta('og:locale', t.meta.ogLocale, true);
+  document.querySelector('.skip-link').textContent = t.skipLink;
+
+  setText('brand-sub', t.brandSub);
+  setText('status-text', t.status);
+
+  setHTML('nav-list', t.nav.map(function(item, i){
+    return '<li><a href="#'+item.id+'" class="'+(i===0?'active':'')+'"><span class="idx mono">'+String(i+1).padStart(2,'0')+'</span>'+esc(item.label)+'</a></li>';
+  }).join(''));
+
+  setText('hero-role', t.hero.role);
+  setHTML('hero-fields', t.hero.fields.map(function(f){
+    return '<div class="field"><div class="field-label">'+esc(f.label)+'</div><div class="field-value">'+esc(f.value)+'</div></div>';
+  }).join(''));
+  setText('hero-lede', t.hero.lede);
+  setHTML('hero-actions',
+    '<a class="btn btn-primary" href="mailto:'+EMAIL+'">'+esc(t.hero.actions.contact)+'</a>'+
+    '<a class="btn btn-secondary" href="'+LINKEDIN_URL+'" target="_blank" rel="noopener">'+esc(t.hero.actions.linkedin)+'</a>'+
+    '<a class="btn btn-secondary" href="'+CV_HREF+'" target="_blank" rel="noopener">'+esc(t.hero.actions.cv)+'</a>'
+  );
+
+  setText('highlights-eyebrow', t.highlights.eyebrow);
+  setText('highlights-h', t.highlights.title);
+  setHTML('highlights-grid', t.highlights.items.map(renderHighlight).join(''));
+
+  setText('exp-eyebrow', t.experience.eyebrow);
+  setText('exp-title', t.experience.title);
+  setHTML('exp-entries', t.experience.entries.map(renderEntry).join(''));
+
+  setText('proj-eyebrow', t.projects.eyebrow);
+  setText('proj-title', t.projects.title);
+  setHTML('proj-grid',
+    t.projects.cards.map(renderProjectCard).join('') +
+    '<div class="project-card empty">'+esc(t.projects.emptySlot)+'</div>'
+  );
+
+  setText('skills-eyebrow', t.skills.eyebrow);
+  setText('skills-title', t.skills.title);
+  setHTML('skills-groups', t.skills.groups.map(function(g){
+    return '<div><div class="skill-group-label">'+esc(g.label)+'</div><div class="tags">'+renderTags(g.tags, g.alt)+'</div></div>';
+  }).join(''));
+
+  setText('langs-eyebrow', t.languages.eyebrow);
+  setText('idiomas-h', t.languages.title);
+  setHTML('langs-list', t.languages.items.map(function(i){
+    return '<div class="lang-row-item"><span class="lang-name">'+esc(i.name)+'</span><span class="lang-level">'+esc(i.level)+'</span></div>';
+  }).join(''));
+
+  setText('edu-eyebrow', t.education.eyebrow);
+  setText('edu-title', t.education.title);
+  setHTML('edu-grid', t.education.items.map(function(e){
+    return '<div class="edu-item'+(e.priority?' priority':'')+'"><div class="edu-title">'+esc(e.title)+'</div><div class="edu-meta">'+esc(e.meta)+'</div></div>';
+  }).join(''));
+
+  setText('int-eyebrow', t.interests.eyebrow);
+  setText('int-title', t.interests.title);
+  setText('int-text', t.interests.text);
+  setHTML('int-tags', renderTags(t.interests.tags, false));
+
+  setText('contact-title', t.contact.title);
+  setText('contact-text', t.contact.text);
+  setText('contact-domain', t.contact.domain);
+  setHTML('contact-links',
+    '<a href="mailto:'+EMAIL+'">'+EMAIL+'</a>'+
+    '<a href="'+PHONE_HREF+'">'+PHONE_DISPLAY+'</a>'+
+    '<a href="'+LINKEDIN_URL+'" target="_blank" rel="noopener">'+esc(t.contact.linkedinLabel)+'</a>'+
+    '<a href="'+CV_HREF+'" target="_blank" rel="noopener">'+esc(t.contact.cvLabel)+'</a>'
+  );
+
+  setText('site-footer', t.footer);
+
+  initScrollSpy();
+}
+
+function initScrollSpy(){
+  var sections = document.querySelectorAll('main section[id]');
+  var navLinks = document.querySelectorAll('nav a');
+
+  if(spyObserver) spyObserver.disconnect();
+  spyObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        navLinks.forEach(function(link){
+          link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+  sections.forEach(function(s){ spyObserver.observe(s); });
+
+  if(!revealObserver){
+    if(reduceMotion){
+      sections.forEach(function(s){ s.classList.add('visible'); });
+    } else {
+      revealObserver = new IntersectionObserver(function(entries, obs){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      sections.forEach(function(s){ revealObserver.observe(s); });
+    }
+  }
+}
+
+function setLang(lang){
+  render(lang);
+  document.querySelectorAll('.lang-switch button').forEach(function(btn){
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+  window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+}
+
+document.querySelectorAll('.lang-switch button').forEach(function(btn){
+  btn.addEventListener('click', function(){ setLang(btn.getAttribute('data-lang')); });
+});
+
+setLang('es');
+</script>
+
+</body>
+</html>
